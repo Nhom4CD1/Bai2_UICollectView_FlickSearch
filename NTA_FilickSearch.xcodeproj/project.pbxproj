@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E5CA6C1EB2DC3E00162423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5CA6B1EB2DC3E00162423 /* AppDelegate.swift */; };
+		05E5CA6E1EB2DC3E00162423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5CA6D1EB2DC3E00162423 /* ViewController.swift */; };
+		05E5CA711EB2DC3E00162423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E5CA6F1EB2DC3E00162423 /* Main.storyboard */; };
+		05E5CA731EB2DC3E00162423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E5CA721EB2DC3E00162423 /* Assets.xcassets */; };
+		05E5CA761EB2DC3E00162423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E5CA741EB2DC3E00162423 /* LaunchScreen.storyboard */; };
+		05E5CA811EB2DC3F00162423 /* NTA_FilickSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5CA801EB2DC3F00162423 /* NTA_FilickSearchTests.swift */; };
+		05E5CA8C1EB2DC3F00162423 /* NTA_FilickSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5CA8B1EB2DC3F00162423 /* NTA_FilickSearchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05E5CA7D1EB2DC3F00162423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E5CA601EB2DC3E00162423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E5CA671EB2DC3E00162423;
+			remoteInfo = NTA_FilickSearch;
+		};
+		05E5CA881EB2DC3F00162423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E5CA601EB2DC3E00162423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E5CA671EB2DC3E00162423;
+			remoteInfo = NTA_FilickSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E5CA681EB2DC3E00162423 /* NTA_FilickSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTA_FilickSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E5CA6B1EB2DC3E00162423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05E5CA6D1EB2DC3E00162423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05E5CA701EB2DC3E00162423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05E5CA721EB2DC3E00162423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05E5CA751EB2DC3E00162423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05E5CA771EB2DC3E00162423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E5CA7C1EB2DC3F00162423 /* NTA_FilickSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTA_FilickSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E5CA801EB2DC3F00162423 /* NTA_FilickSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTA_FilickSearchTests.swift; sourceTree = "<group>"; };
+		05E5CA821EB2DC3F00162423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E5CA871EB2DC3F00162423 /* NTA_FilickSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTA_FilickSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E5CA8B1EB2DC3F00162423 /* NTA_FilickSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTA_FilickSearchUITests.swift; sourceTree = "<group>"; };
+		05E5CA8D1EB2DC3F00162423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05E5CA651EB2DC3E00162423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E5CA791EB2DC3F00162423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E5CA841EB2DC3F00162423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E5CA5F1EB2DC3E00162423 = {
+			isa = PBXGroup;
+			children = (
+				05E5CA6A1EB2DC3E00162423 /* NTA_FilickSearch */,
+				05E5CA7F1EB2DC3F00162423 /* NTA_FilickSearchTests */,
+				05E5CA8A1EB2DC3F00162423 /* NTA_FilickSearchUITests */,
+				05E5CA691EB2DC3E00162423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05E5CA691EB2DC3E00162423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05E5CA681EB2DC3E00162423 /* NTA_FilickSearch.app */,
+				05E5CA7C1EB2DC3F00162423 /* NTA_FilickSearchTests.xctest */,
+				05E5CA871EB2DC3F00162423 /* NTA_FilickSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05E5CA6A1EB2DC3E00162423 /* NTA_FilickSearch */ = {
+			isa = PBXGroup;
+			children = (
+				05E5CA6B1EB2DC3E00162423 /* AppDelegate.swift */,
+				05E5CA6D1EB2DC3E00162423 /* ViewController.swift */,
+				05E5CA6F1EB2DC3E00162423 /* Main.storyboard */,
+				05E5CA721EB2DC3E00162423 /* Assets.xcassets */,
+				05E5CA741EB2DC3E00162423 /* LaunchScreen.storyboard */,
+				05E5CA771EB2DC3E00162423 /* Info.plist */,
+			);
+			path = NTA_FilickSearch;
+			sourceTree = "<group>";
+		};
+		05E5CA7F1EB2DC3F00162423 /* NTA_FilickSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				05E5CA801EB2DC3F00162423 /* NTA_FilickSearchTests.swift */,
+				05E5CA821EB2DC3F00162423 /* Info.plist */,
+			);
+			path = NTA_FilickSearchTests;
+			sourceTree = "<group>";
+		};
+		05E5CA8A1EB2DC3F00162423 /* NTA_FilickSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05E5CA8B1EB2DC3F00162423 /* NTA_FilickSearchUITests.swift */,
+				05E5CA8D1EB2DC3F00162423 /* Info.plist */,
+			);
+			path = NTA_FilickSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05E5CA671EB2DC3E00162423 /* NTA_FilickSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E5CA901EB2DC3F00162423 /* Build configuration list for PBXNativeTarget "NTA_FilickSearch" */;
+			buildPhases = (
+				05E5CA641EB2DC3E00162423 /* Sources */,
+				05E5CA651EB2DC3E00162423 /* Frameworks */,
+				05E5CA661EB2DC3E00162423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTA_FilickSearch;
+			productName = NTA_FilickSearch;
+			productReference = 05E5CA681EB2DC3E00162423 /* NTA_FilickSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05E5CA7B1EB2DC3F00162423 /* NTA_FilickSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E5CA931EB2DC3F00162423 /* Build configuration list for PBXNativeTarget "NTA_FilickSearchTests" */;
+			buildPhases = (
+				05E5CA781EB2DC3F00162423 /* Sources */,
+				05E5CA791EB2DC3F00162423 /* Frameworks */,
+				05E5CA7A1EB2DC3F00162423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E5CA7E1EB2DC3F00162423 /* PBXTargetDependency */,
+			);
+			name = NTA_FilickSearchTests;
+			productName = NTA_FilickSearchTests;
+			productReference = 05E5CA7C1EB2DC3F00162423 /* NTA_FilickSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05E5CA861EB2DC3F00162423 /* NTA_FilickSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E5CA961EB2DC3F00162423 /* Build configuration list for PBXNativeTarget "NTA_FilickSearchUITests" */;
+			buildPhases = (
+				05E5CA831EB2DC3F00162423 /* Sources */,
+				05E5CA841EB2DC3F00162423 /* Frameworks */,
+				05E5CA851EB2DC3F00162423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E5CA891EB2DC3F00162423 /* PBXTargetDependency */,
+			);
+			name = NTA_FilickSearchUITests;
+			productName = NTA_FilickSearchUITests;
+			productReference = 05E5CA871EB2DC3F00162423 /* NTA_FilickSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05E5CA601EB2DC3E00162423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = THANH;
+				TargetAttributes = {
+					05E5CA671EB2DC3E00162423 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					05E5CA7B1EB2DC3F00162423 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05E5CA671EB2DC3E00162423;
+					};
+					05E5CA861EB2DC3F00162423 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05E5CA671EB2DC3E00162423;
+					};
+				};
+			};
+			buildConfigurationList = 05E5CA631EB2DC3E00162423 /* Build configuration list for PBXProject "NTA_FilickSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05E5CA5F1EB2DC3E00162423;
+			productRefGroup = 05E5CA691EB2DC3E00162423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05E5CA671EB2DC3E00162423 /* NTA_FilickSearch */,
+				05E5CA7B1EB2DC3F00162423 /* NTA_FilickSearchTests */,
+				05E5CA861EB2DC3F00162423 /* NTA_FilickSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05E5CA661EB2DC3E00162423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E5CA761EB2DC3E00162423 /* LaunchScreen.storyboard in Resources */,
+				05E5CA731EB2DC3E00162423 /* Assets.xcassets in Resources */,
+				05E5CA711EB2DC3E00162423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E5CA7A1EB2DC3F00162423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E5CA851EB2DC3F00162423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05E5CA641EB2DC3E00162423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E5CA6E1EB2DC3E00162423 /* ViewController.swift in Sources */,
+				05E5CA6C1EB2DC3E00162423 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E5CA781EB2DC3F00162423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E5CA811EB2DC3F00162423 /* NTA_FilickSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E5CA831EB2DC3F00162423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E5CA8C1EB2DC3F00162423 /* NTA_FilickSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05E5CA7E1EB2DC3F00162423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05E5CA671EB2DC3E00162423 /* NTA_FilickSearch */;
+			targetProxy = 05E5CA7D1EB2DC3F00162423 /* PBXContainerItemProxy */;
+		};
+		05E5CA891EB2DC3F00162423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05E5CA671EB2DC3E00162423 /* NTA_FilickSearch */;
+			targetProxy = 05E5CA881EB2DC3F00162423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05E5CA6F1EB2DC3E00162423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E5CA701EB2DC3E00162423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05E5CA741EB2DC3E00162423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E5CA751EB2DC3E00162423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05E5CA8E1EB2DC3F00162423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05E5CA8F1EB2DC3F00162423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05E5CA911EB2DC3F00162423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTA_FilickSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MaiSen.NTA-FilickSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		05E5CA921EB2DC3F00162423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NTA_FilickSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MaiSen.NTA-FilickSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		05E5CA941EB2DC3F00162423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NTA_FilickSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MaiSen.NTA-FilickSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTA_FilickSearch.app/NTA_FilickSearch";
+			};
+			name = Debug;
+		};
+		05E5CA951EB2DC3F00162423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NTA_FilickSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MaiSen.NTA-FilickSearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTA_FilickSearch.app/NTA_FilickSearch";
+			};
+			name = Release;
+		};
+		05E5CA971EB2DC3F00162423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NTA_FilickSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MaiSen.NTA-FilickSearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NTA_FilickSearch;
+			};
+			name = Debug;
+		};
+		05E5CA981EB2DC3F00162423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NTA_FilickSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MaiSen.NTA-FilickSearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NTA_FilickSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05E5CA631EB2DC3E00162423 /* Build configuration list for PBXProject "NTA_FilickSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E5CA8E1EB2DC3F00162423 /* Debug */,
+				05E5CA8F1EB2DC3F00162423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E5CA901EB2DC3F00162423 /* Build configuration list for PBXNativeTarget "NTA_FilickSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E5CA911EB2DC3F00162423 /* Debug */,
+				05E5CA921EB2DC3F00162423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05E5CA931EB2DC3F00162423 /* Build configuration list for PBXNativeTarget "NTA_FilickSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E5CA941EB2DC3F00162423 /* Debug */,
+				05E5CA951EB2DC3F00162423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05E5CA961EB2DC3F00162423 /* Build configuration list for PBXNativeTarget "NTA_FilickSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E5CA971EB2DC3F00162423 /* Debug */,
+				05E5CA981EB2DC3F00162423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05E5CA601EB2DC3E00162423 /* Project object */;
+}
